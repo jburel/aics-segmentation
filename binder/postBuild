@@ -1,0 +1,8 @@
+#!/bin/bash
+set -eux
+
+env
+
+git clone https://github.com/AllenInstitute/aics-segmentation.git
+cd aics-segmentation
+pip install -e .[all]

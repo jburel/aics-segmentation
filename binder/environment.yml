@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - ome
+dependencies:
+  - zeroc-ice36-python
+  - omero-py
+  - pip
+  - git
+  - nb_conda
+  - numpy
+  - pip:
+    - itkwidgets==0.14.0
